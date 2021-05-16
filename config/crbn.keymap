@@ -30,7 +30,7 @@
 
 		lower {
 			bindings = <
-				&none &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT)) &none &none &none     &kp N7 &kp N8       &kp N9     &kp BSPC
+				&none &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT)) &none &none &none     &kp N7 &kp N8       &kp N9     &kp DEL
 				&none &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT         &none &none &none     &kp N4 &kp N5       &kp N6     &kp KP_MINUS
 				&none &kp K_UNDO       &kp K_CUT        &kp K_COPY     &kp K_PASTE       &none &none &none     &kp N1 &kp N2       &kp N3     &kp KP_PLUS	
 				&none &none            &none            &none          &none             &none &none &kp RSHFT &kp N0 &kp KP_SLASH &kp KP_DOT &kp RET
