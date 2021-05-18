@@ -33,7 +33,7 @@
 				&kp ESC   &kp Q    &kp W    &kp E &kp R      &kp T  &kp Y   &kp U     &kp I     &kp O     &kp P    &tap DEL BSPC
 				&kp TAB   &kp A    &kp S    &kp D &kp F      &kp G  &kp H   &kp J     &kp K     &kp L     &kp SEMI &kp SQT
 				&kp LSHFT &kp Z    &kp X    &kp C &kp V      &kp B  &kp N   &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RET
-				&kp LCTRL &kp LGUI &kp LALT &tog 1 &kp SPACE &trans &trans  &sk RSHFT &mo 2     &kp HOME  &kp END  &kp MINUS
+				&kp LCTRL &kp LGUI &kp LALT &mo 1 &kp SPACE &trans &trans  &sk RSHFT &mo 2      &kp HOME  &kp END  &kp MINUS
 			>;
 
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -41,10 +41,10 @@
 
 		lower {
 			bindings = <
-				&none &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT))  &none &none &none      &kp N7  &kp N8        &kp N9      &tap DEL BSPC
-				&none &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT          &none &none &none      &kp N4  &kp N5        &kp N6      &kp KP_MINUS
-				&none &kp K_UNDO       &kp K_CUT        &kp K_COPY     &kp K_PASTE        &none &none &none      &kp N1  &kp N2        &kp N3      &kp KP_PLUS	
-				&none &none            &none            &trans         &none             &none &none &kp RSHFT &kp N0 &kp KP_SLASH &kp KP_DOT &kp RET
+				&trans &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT)) &trans &trans &trans      &kp N7  &kp N8        &kp N9     &tap DEL BSPC
+				&trans &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT         &trans &trans &trans      &kp N4  &kp N5        &kp N6     &kp KP_MINUS
+				&trans &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)         &trans &trans &trans      &kp N1  &kp N2        &kp N3     &kp KP_PLUS	
+				&trans &trans           &trans           &trans         &trans            &trans &trans &kp RSHFT   &kp N0  &kp KP_SLASH  &kp KP_DOT &kp RET
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
