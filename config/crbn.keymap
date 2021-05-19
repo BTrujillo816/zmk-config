@@ -30,7 +30,7 @@
 				// | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |  RET  |
 				// | LCTL  | LGUI | LALT | LCTL |     LOWR    |	    RAIS      | LARW | DARW | UARW  |  RARW |
 			bindings = <
-				&tap RALT(F4) ESC &kp Q    &kp W    &kp E &kp R      &kp T  &kp Y  &kp U     &kp I     &kp O     &kp P    &tap DEL BSPC
+				&kp ESC           &kp Q    &kp W    &kp E &kp R      &kp T  &kp Y  &kp U     &kp I     &kp O     &kp P    &tap DEL BSPC
 				&kp TAB           &kp A    &kp S    &kp D &kp F      &kp G  &kp H  &kp J     &kp K     &kp L     &kp SEMI &kp SQT
 				&kp LSHFT         &kp Z    &kp X    &kp C &kp V      &kp B  &kp N  &kp M     &kp COMMA &kp DOT   &kp FSLH &kp MINUS
 				&kp LCTRL         &kp LGUI &kp LALT &mo 1 &kp SPACE  &trans &trans &sk RSHFT &mo 2     &kp HOME  &kp END  &kp RET
