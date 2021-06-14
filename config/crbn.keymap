@@ -41,13 +41,13 @@
 
 		lower {
 			bindings = <
-				&trans &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT)) &kp LPAR &kp RPAR &trans      &kp N7  &kp N8              &kp N9     &tap DEL BSPC
-				&trans &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT         &kp LBKT &kp RBKT &trans      &kp N4  &kp N5              &kp N6     &kp KP_MINUS
-				&trans &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)         &kp LBRC &kp RBRC &trans      &kp N1  &kp N2              &kp N3     &kp KP_PLUS	
-				&trans &trans           &trans           &trans         &trans            &trans   &trans   &kp RSHFT   &kp N0  &mt RCTRL KP_SLASH  &kp KP_DOT &kp RET
+				&trans &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT)) &kp LBKT &kp RBKT &BSLH     &kp N7  &kp N8              &kp N9     &tap DEL BSPC
+				&trans &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT         &kp LPAR &kp RPAR &LT       &kp N4  &kp N5              &kp N6     &kp KP_MINUS
+				&trans &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)         &kp LBRC &kp RBRC &GT       &kp N1  &kp N2              &kp N3     &kp KP_PLUS	
+				&trans &trans           &trans           &trans         &trans            &trans   &trans   &kp RSHFT &kp N0  &mt RCTRL KP_SLASH  &kp KP_DOT &kp RET
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp LC(LEFT) LC(RIGHT)>;
 		};
 
 		raise {
