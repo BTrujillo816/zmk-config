@@ -42,8 +42,8 @@
 		lower {
 			bindings = <
 				&trans &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(UP)) &kp LS(LC(RIGHT)) &kp LBKT &kp RBKT &kp BSLH     &kp N7  &kp N8              &kp N9     &tap DEL BSPC
-				&trans &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT         &kp LPAR &kp RPAR &kp KP_EQUAL       &kp N4  &kp N5              &kp N6     &kp KP_MINUS
-				&trans &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)         &kp LBRC &kp RBRC &kp GRAVE       &kp N1  &kp N2              &kp N3     &kp KP_PLUS	
+				&trans &kp LEFT         &kp DOWN         &kp UP         &kp RIGHT         &kp LPAR &kp RPAR &kp EQUAL       &kp N4  &kp N5              &kp N6     &kp KP_MINUS
+				&trans &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)         &kp LBRC &kp RBRC &kp GRAVE	       &kp N1  &kp N2              &kp N3     &kp KP_PLUS	
 				&trans &trans           &trans           &trans         &trans            &trans   &trans   &kp RSHFT &kp N0  &mt RCTRL KP_SLASH  &kp KP_DOT &kp RET
 			>;
 
